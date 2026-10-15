@@ -1,6 +1,6 @@
 def calculate_price(price_of_item, price_of_shipping):
 
-    if price_of_item <= 50:
+    if price_of_item < 50:
         return price_of_item + price_of_shipping
 
     else:
