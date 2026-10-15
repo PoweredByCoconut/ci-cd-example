@@ -1,8 +1,8 @@
 def calculate_price(price_of_item, price_of_shipping):
 
-    # we give free shipping for items over $50
+    # we give free shipping for items of $50 or more
     
-    if price_of_item > 50:
+    if price_of_item >= 50:
         return price_of_item
     
     else:
